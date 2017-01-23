@@ -16,6 +16,13 @@ $(document).ready(function() {
 
     $("ul#contacts").append("<li><span class='contact'>" + newContact.firstName + "</span></li>");
 
+    $(".contact").last().click(function() {
+      $("#showContact").show();
+      $("#showContact h2").text(newContact.firstName);
+      $(".firstName").text(newContact.firstName);
+      $(".lastName").text(newContact.lastName);
+    });
+
     $("input#newFirstName").val("");
     $("input#newLastName").val("");
 
