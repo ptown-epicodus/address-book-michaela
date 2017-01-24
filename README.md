@@ -2,7 +2,7 @@
 
 #### _Address Book, 1.22.17_
 
-#### By _**Michaela Davis**_
+#### By _**Michaela Davis**_ & _**Patrick McGreevy**_
 
 ## GitHub Pages Link
 https://michaela-davis.github.io/intro_address-book/
